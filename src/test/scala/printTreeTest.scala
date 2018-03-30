@@ -27,7 +27,6 @@ class printTreeTest extends  Specification{
         val child = List(TreeNode("level1-1", child1_1), TreeNode("level1-2" , child1_2) , TreeNode("level1-3"))
         val tree = TreeNode("Root" , child)
         asciiDisplay(tree).foreach(println)
-
         ok
     }
 
